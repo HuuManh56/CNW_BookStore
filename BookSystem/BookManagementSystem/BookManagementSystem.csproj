@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -196,6 +197,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\GioHangController.cs" />
     <Compile Include="Controllers\HoaDonController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -203,10 +205,21 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\NhaXuatBanController.cs" />
     <Compile Include="Controllers\PhieuNhapController.cs" />
+=======
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\CuonSachController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ListImageController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\TacGiaController.cs" />
+    <Compile Include="Controllers\TheLoaiController.cs" />
+    <Compile Include="Controllers\VaiTroController.cs" />
+>>>>>>> f12a9688b46c970cecef3cc742c4ab0124e8180b
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\HoaDon.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\KhachHang.cs" />
@@ -214,6 +227,16 @@
     <Compile Include="Models\GioHang.cs" />
     <Compile Include="Models\NhaXuatBan.cs" />
     <Compile Include="Models\PhieuNhap.cs" />
+=======
+    <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\CuonSach.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ListImage.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\TacGia.cs" />
+    <Compile Include="Models\TheLoai.cs" />
+    <Compile Include="Models\VaiTro.cs" />
+>>>>>>> f12a9688b46c970cecef3cc742c4ab0124e8180b
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -277,6 +300,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\GioHang\List.cshtml" />
     <Content Include="Views\GioHang\Edit.cshtml" />
     <Content Include="Views\GioHang\Create.cshtml" />
@@ -302,6 +326,44 @@
     <Content Include="Views\PhieuNhap\Create.cshtml" />
     <Content Include="Views\PhieuNhap\Details.cshtml" />
     <Content Include="Views\PhieuNhap\Delete.cshtml" />
+=======
+    <Content Include="Views\TheLoai\List.cshtml" />
+    <Content Include="Views\TheLoai\Create.cshtml" />
+    <Content Include="Views\TheLoai\Edit.cshtml" />
+    <Content Include="Views\TheLoai\Delete.cshtml" />
+    <Content Include="Views\TheLoai\Index.cshtml" />
+    <Content Include="Views\TheLoai\Details.cshtml" />
+    <Content Include="Views\VaiTro\Index.cshtml" />
+    <Content Include="Views\VaiTro\Delete.cshtml" />
+    <Content Include="Views\VaiTro\Details.cshtml" />
+    <Content Include="Views\VaiTro\Edit.cshtml" />
+    <Content Include="Views\VaiTro\Create.cshtml" />
+    <Content Include="Views\VaiTro\List.cshtml" />
+    <Content Include="Views\TacGia\Index.cshtml" />
+    <Content Include="Views\TacGia\Delete.cshtml" />
+    <Content Include="Views\TacGia\Details.cshtml" />
+    <Content Include="Views\TacGia\Edit.cshtml" />
+    <Content Include="Views\TacGia\Create.cshtml" />
+    <Content Include="Views\TacGia\List.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\Admin\Delete.cshtml" />
+    <Content Include="Views\Admin\Details.cshtml" />
+    <Content Include="Views\Admin\Edit.cshtml" />
+    <Content Include="Views\Admin\Create.cshtml" />
+    <Content Include="Views\Admin\List.cshtml" />
+    <Content Include="Views\CuonSach\Index.cshtml" />
+    <Content Include="Views\CuonSach\List.cshtml" />
+    <Content Include="Views\CuonSach\Create.cshtml" />
+    <Content Include="Views\CuonSach\Edit.cshtml" />
+    <Content Include="Views\CuonSach\Details.cshtml" />
+    <Content Include="Views\CuonSach\Delete.cshtml" />
+    <Content Include="Views\ListImage\Index.cshtml" />
+    <Content Include="Views\ListImage\List.cshtml" />
+    <Content Include="Views\ListImage\Create.cshtml" />
+    <Content Include="Views\ListImage\Edit.cshtml" />
+    <Content Include="Views\ListImage\Details.cshtml" />
+    <Content Include="Views\ListImage\Delete.cshtml" />
+>>>>>>> f12a9688b46c970cecef3cc742c4ab0124e8180b
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
