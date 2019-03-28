@@ -196,14 +196,24 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\GioHangController.cs" />
+    <Compile Include="Controllers\HoaDonController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\KhachHangController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\NhaXuatBanController.cs" />
+    <Compile Include="Controllers\PhieuNhapController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\HoaDon.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\KhachHang.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\GioHang.cs" />
+    <Compile Include="Models\NhaXuatBan.cs" />
+    <Compile Include="Models\PhieuNhap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -267,6 +277,31 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\GioHang\List.cshtml" />
+    <Content Include="Views\GioHang\Edit.cshtml" />
+    <Content Include="Views\GioHang\Create.cshtml" />
+    <Content Include="Views\GioHang\Details.cshtml" />
+    <Content Include="Views\GioHang\Delete.cshtml" />
+    <Content Include="Views\NhaXuatBan\List.cshtml" />
+    <Content Include="Views\NhaXuatBan\Edit.cshtml" />
+    <Content Include="Views\NhaXuatBan\Create.cshtml" />
+    <Content Include="Views\NhaXuatBan\Details.cshtml" />
+    <Content Include="Views\NhaXuatBan\Delete.cshtml" />
+    <Content Include="Views\KhachHang\List.cshtml" />
+    <Content Include="Views\KhachHang\Edit.cshtml" />
+    <Content Include="Views\KhachHang\Create.cshtml" />
+    <Content Include="Views\KhachHang\Details.cshtml" />
+    <Content Include="Views\KhachHang\Delete.cshtml" />
+    <Content Include="Views\HoaDon\List.cshtml" />
+    <Content Include="Views\HoaDon\Edit.cshtml" />
+    <Content Include="Views\HoaDon\Create.cshtml" />
+    <Content Include="Views\HoaDon\Details.cshtml" />
+    <Content Include="Views\HoaDon\Delete.cshtml" />
+    <Content Include="Views\PhieuNhap\List.cshtml" />
+    <Content Include="Views\PhieuNhap\Edit.cshtml" />
+    <Content Include="Views\PhieuNhap\Create.cshtml" />
+    <Content Include="Views\PhieuNhap\Details.cshtml" />
+    <Content Include="Views\PhieuNhap\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
